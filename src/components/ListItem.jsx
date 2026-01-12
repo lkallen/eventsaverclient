@@ -33,7 +33,7 @@ export default function ListItem({ event }) {
             {event.title.toLowerCase()}
           </h3>
         </div>
-        <div className="flex-shrink-0 opacity-0 group-hover:opacity-100 transition-opacity ml-2">
+        <div className="shrink-0 opacity-0 group-hover:opacity-100 transition-opacity ml-2">
           <svg
             className="h-5 w-5 text-muted-foreground"
             fill="none"
