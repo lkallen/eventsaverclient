@@ -1,8 +1,8 @@
 export default function manifest() {
   return {
-    name: "Next.js PWA",
-    short_name: "NextPWA",
-    description: "A Progressive Web App built with Next.js",
+    name: "Event Saver",
+    short_name: "Event Saver",
+    description: "A PWA to view events saved from images",
     start_url: "/",
     display: "standalone",
     background_color: "#ffffff",
