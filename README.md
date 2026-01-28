@@ -10,8 +10,6 @@ I built this because I was constantly saving screenshots or photos of events fro
 
 ## Tech Stack
 
-### Frontend
-
 - React with Next.js
 - JavaScript
 - Tailwind CSS
@@ -19,7 +17,6 @@ I built this because I was constantly saving screenshots or photos of events fro
 - Drizzle ORM
 - PostgreSQL (hosted on Neon)
 
-### Backend (separate repo)
+## Image Processing Service
 
-- Node.js with Express
-- OCR + image parsing to extract structured event data from screenshots
+Event data is extracted from images using a [separate service](https://github.com/lkallen/eventsaverserver?tab=readme-ov-file) built with Node.js, Express, and OCR technology.
