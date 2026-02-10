@@ -29,6 +29,9 @@ export default function ListItem({ event }) {
           <div className="text-sm text-muted-foreground font-medium mb-1">
             {formatDate(event.normalizedDate)}
           </div>
+          <div className="text-sm text-muted-foreground font-medium mb-1">
+            {event.time}
+          </div>
           <h3 className="font-semibold capitalize text-primary">
             {event.title.toLowerCase()}
           </h3>
